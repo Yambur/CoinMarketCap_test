@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  bot:
+    build: .
+    environment:
+      - TELEGRAM_BOT_TOKEN_T
+      - COINMARKETCAP_API_KEY_T
+    restart: always
